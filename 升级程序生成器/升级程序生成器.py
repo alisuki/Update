@@ -15,20 +15,6 @@ for i in range(0,5):
 '''
    
    
-#二进制加密任何字符串或文件
-def ecrypt_all(strs,en_de):		#第二个参数en表示加密，de表示解密
-	if en_de == 'en':
-		for i in range(0,5):
-			strs = base64.encodestring(strs)
-	else:
-		for i in range(0,5):
-			strs = base64.decodestring(strs)
-		
-    return(strs)
-
-
-
-
 
 
      
